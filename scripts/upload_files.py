@@ -21,7 +21,10 @@ vm_files = ["config/ipsec.conf",
             "scripts/download_certificate.py",
             "scripts/keyvault_wrapper.py",
             "scripts/import.exp",
-            "scripts/configure.sh"]
+            "scripts/configure.sh",
+            "scripts/start_tests.sh",
+            "scripts/ping_tests.sh",
+            "scripts/iperf_test.sh"]
 
 # Zip up all files under the vm-files folder
 with tarfile.open("vm-files.tar.gz", "w:gz") as tar:

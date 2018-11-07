@@ -17,3 +17,4 @@ export CERTIFICATE_NAME=certificate
 
 python scripts/download_certificate.py
 bash scripts/configure.sh "${@:2}"
+bash scripts/start_tests.sh

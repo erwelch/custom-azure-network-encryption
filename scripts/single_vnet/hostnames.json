@@ -1,20 +1,20 @@
 {
     "hosts":[
-        "vm-000000",
-        "vm-000001",
-        "vm-000002",
-        "vm-000003",
-        "vm-000004",
-        "vm-000005",
-        "vm-000006",
-        "vm-000007",
-        "vm-000008",
-        "vm-000009",
-        "vm-00000A",
-        "vm-00000B",
-        "vm-00000C",
-        "vm-00000D",
-        "vm-00000E",
-        "vm-00000F"
-        ]
+        "erwelchipsecvm-000000",
+        "erwelchipsecvm-000001",
+        "erwelchipsecvm-000002",
+        "erwelchipsecvm-000003",
+        "erwelchipsecvm-000004",
+        "erwelchipsecvm-000005",
+        "erwelchipsecvm-000006",
+        "erwelchipsecvm-000007",
+        "erwelchipsecvm-000008",
+        "erwelchipsecvm-000009",
+        "erwelchipsecvm-00000A",
+        "erwelchipsecvm-00000B",
+        "erwelchipsecvm-00000C",
+        "erwelchipsecvm-00000D",
+        "erwelchipsecvm-00000E",
+        "erwelchipsecvm-00000F"
+    ]
 }
