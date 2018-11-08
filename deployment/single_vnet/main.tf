@@ -142,7 +142,11 @@ resource "azurerm_virtual_machine_scale_set" "scaleset" {
   }
 
   os_profile_linux_config {
-    disable_password_authentication = false
+    disable_password_authentication = true
+    ssh_keys { 
+      path = "/home/azureuser/.ssh/authorized_keys" 
+      key_data = "${var.public_key}" 
+    }
   }
 
   network_profile {

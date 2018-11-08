@@ -20,7 +20,7 @@ for i in $(seq 0 200); do
     iperf3 -s -p $(expr 50000 + $i) -D
 done
 
-while [ $hosts_found != 100 ]; do
+while [ $hosts_found >= 3 ]; do
     hosts_found=0
     for i in $(seq 0 200); do 
         b36num=$(decimal_to_base36 $i)

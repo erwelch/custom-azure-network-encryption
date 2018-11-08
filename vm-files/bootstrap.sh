@@ -1,6 +1,9 @@
 yum install -y expect
 yum install -y libreswan
 yum install -y wget
+yum install -y iperf3
+(wget -O - pi.dk/3 || curl pi.dk/3/ || fetch -o - pi.dk/3) | bash
+
 
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py

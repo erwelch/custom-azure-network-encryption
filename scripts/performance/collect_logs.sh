@@ -1,5 +1,5 @@
-ip=40.121.71.110
-ports=($(seq 50000 1 50130))
+ip=40.114.64.43
+ports=($(seq 50000 1 50006))
 
 cd logs_no_ipsec
 
@@ -14,7 +14,7 @@ export -f download_logs
 
 echo ${ports[*]}
 
-/home/erwelch/bin/parallel -j20 download_logs ::: $ip ::: ${ports[*]}
+parallel -j20 download_logs ::: $ip ::: ${ports[*]}
 
 cat iperf_*.txt | sort >  iperf.log
 cat ping_*.txt | sort > ping.log

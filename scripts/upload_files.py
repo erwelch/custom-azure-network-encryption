@@ -23,7 +23,7 @@ vm_files = ["config/ipsec.conf",
             "scripts/import.exp",
             "scripts/configure.sh",
             "scripts/start_tests.sh",
-            "scripts/ping_tests.sh",
+            "scripts/ping_test.sh",
             "scripts/iperf_test.sh"]
 
 # Zip up all files under the vm-files folder

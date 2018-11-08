@@ -16,7 +16,7 @@ def run_single_test(hostname, port, duration):
 
 #max_workers = 5
 
-ips = ["10.0.0.8", "10.0.0.10"]
+ips = ["10.0.0.1", "10.0.0.3"]
 
 threads = []
 for ip in ips:
